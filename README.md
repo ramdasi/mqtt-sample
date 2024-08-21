@@ -15,7 +15,7 @@ To get started with the project, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone httpsgithub.com/ramdasi/mqtt-sample.git
+   git clone https://github.com/ramdasi/mqtt-sample.git
    cd your-repo
 2. **Install the required Python dependencies:**
 
@@ -43,3 +43,15 @@ The client will start emitting MQTT signals to the server.
 ## Stopping the Programs
 To stop either the server or the client, press Ctrl+C in the terminal where the script is running.
 The shutdown process may take 2-5 seconds.
+
+## Debugging
+1. MongoDB Compass Url
+   Paste the following url to debug or view database in MongoDB Compass:
+   ```bash
+   mongodb+srv://upswing:upswing24@cluster0.yzuqkah.mongodb.net/
+2. RabbitMQ Url
+   Following is rabbitMQ url which can be pasted to browser to debug rabbitMQ queues
+   ```bash
+   https://puffin.rmq2.cloudamqp.com/#/queues
+
+Thanks for reading
