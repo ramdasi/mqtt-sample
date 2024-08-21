@@ -13,10 +13,10 @@ This project is designed to receive MQTT signals, store them in MongoDB, and pro
 To get started with the project, follow these steps:
 
 1. **Clone the repository:**
-
+   Use Terminal or Command prompt to run following commands
    ```bash
    git clone https://github.com/ramdasi/mqtt-sample.git
-   cd your-repo
+   cd mqtt-sample
 2. **Install the required Python dependencies:**
 
    Ensure you have Python 3.10 installed on your system. Then, install the dependencies using pip:
@@ -33,13 +33,18 @@ To get started with the project, follow these steps:
 
    ```bash
    http://localhost:8000/dashboard
-   
+   ```
+    Note: If using Linux, following command can be used
+   ```bash
+   python .\server\main.py
 2. Starting the Client
-To start the client that will emit MQTT signals:
-
-Run the start-client.bat by clicking it.
-The client will start emitting MQTT signals to the server.
-
+   To start the client that will emit MQTT signals:
+   
+   Run the start-client.bat by clicking it.
+   The client will start emitting MQTT signals to the server.
+   Note: If using Linux, following command can be used
+   ```bash
+   python .\server\status-emmiter.py
 ## Stopping the Programs
 To stop either the server or the client, press Ctrl+C in the terminal where the script is running.
 The shutdown process may take 2-5 seconds.
